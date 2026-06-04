@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Calc BC FRQ Review</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script>
+        MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Math.js parser for symbolic equivalence -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>AP Calculus BC FRQ Review</h1>
+
+        <div class="toolbar">
+            <select id="unitSelect">
+                <option value="polar">Polar</option>
+                <option value="parametric">Parametric</option>
+                <option value="ibp">Integration by Parts</option>
+            </select>
+
+            <button onclick="newQuestion()">New Question</button>
+        </div>
+
+        <div class="score-card">
+            Score: <span id="points">0</span> / <span id="possibleScore">0</span>
+         </div>
+
+        <div class="card">
+            <h2>Question</h2>
+            <div id="prompt"></div>
+            <div id="parts"></div>
+        </div>
+    </div>
+
+</body>
+</html>
