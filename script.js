@@ -11,7 +11,7 @@ const banks = {
       ]
     },
     {
-      prompt: "Consider the polar curve $$r = 1 + 2\\cos\\theta$$ (an inner-loop limaçon).",
+      prompt: "Consider the polar curve $$r = 1 + 2\\cos\\theta$$ (an inner-loop limacon).",
       parts: [
         { q: "(a) Find the values of \\theta in [0, 2\\pi] where the curve passes through the pole (r = 0).", a: "2*pi/3, 4*pi/3" },
         { q: "(b) What is the upper limit of integration used to find the area of the inner loop if the lower limit is 2*pi/3?", a: "4*pi/3" },
